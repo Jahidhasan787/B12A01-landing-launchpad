@@ -2,7 +2,9 @@
     padding: 0;
     margin: 0;
 }
-
+body{
+    background-color: rgba(214, 221, 237, .5);
+}
 /* Shared styles */
 .container{
     max-width: 1140px;
@@ -20,6 +22,7 @@
     padding: 12px 36px;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
 }
 
 .raleway-font,
@@ -132,4 +135,72 @@ nav h1 {
     color: rgba(0, 0, 0, 0.5);
 }
 
+/* get in touch section styles */
+
+.get-in-touch-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 90px auto;
+    padding: 50px 0;
+    
+}
+.get-in-touch-title h1{
+    font-size: 97px;
+    font-weight: bold;
+    max-width: 530px;
+    width: 100%;
+}
+.get-in-touch-section form{
+ display: flex;
+ flex-direction: column;
+ gap: 15px;
+ 
+}
+
+.get-in-touch-section form input{
+    padding: 20px 32px;
+    width: 450px;
+    border: 1px solid rgba(214, 221, 237, 1);
+    border-radius: 10px;
+}
+
+/* footer styles */
+
+footer{
+    text-align: center;
+    background-color: rgba(255, 255, 255, .5);
+    height: 430px;
+}
+.footer{
+    max-width: 530px;
+    width: 100%;
+}
+
+footer h1{
+    padding-top: 150px;
+    font-size: 110px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+
+footer p{
+    color: rgba(137, 135, 161, 1);
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin: 20px;
+}
+
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+
+}
 
