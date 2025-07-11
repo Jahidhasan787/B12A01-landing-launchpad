@@ -210,7 +210,32 @@ nav h1 {
     font-weight: 400;
     color: rgba(0, 0, 0, 0.4);
 }
+/* focus section  */
 
+.focus{
+    text-align: center;
+    margin-top: 135px;
+    padding: 70px;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 15px;
+}
+
+.focus-content h1{
+    font-size: 50px;
+    font-weight:bold;
+}
+
+.focus-content p{
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.focus-content button{
+    margin: 20px;
+}
+.focus-image img{
+    border-radius: 48px;
+}
 /* get in touch section styles */
 
 .get-in-touch-section{
