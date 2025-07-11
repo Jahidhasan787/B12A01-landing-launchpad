@@ -134,6 +134,62 @@ nav h1 {
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
 }
+/* user feedback section styles */
+
+
+.users-feedback{
+    text-align: center;
+    margin: 135px auto 0;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.card{
+    max-width: 3750px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .4);
+    border-radius: 15px;
+    padding: 25px;
+    text-align: left;
+
+}
+.card .card-content{
+    margin: 20px auto;
+}
+
+.card .card-content h3{
+    font-size:22px;
+    font-weight:600;
+    margin: 8px auto;
+}
+.card .card-content h5{
+   font-size: 15px;
+    font-weight: 400;
+}
+.reviewer-data{
+    display: flex;
+    gap: 12px;
+    text-align: left;
+}
+.reviewer-image img{
+    border-radius: 9999px;
+}
+ .reviewer-content h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 5px auto;
+
+ }
+.reviewer-content p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.4);
+}
 
 /* get in touch section styles */
 
