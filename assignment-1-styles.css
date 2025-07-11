@@ -23,8 +23,25 @@ body{
     border-radius: 10px;
     border: none;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
+.btn:hover {
+    color: black;
+    font-size: 17px;
+    height: 49px;
+    animation: bgChange 1s forwards;
+}
+
+@keyframes bgChange {
+      from {
+        background-color: #63d976;
+      }
+      to {
+        background-color: rgb(239, 203, 23); 
+      }
+    }
+    
 .raleway-font,
 body {
     font-family: "Raleway", sans-serif;
@@ -41,6 +58,9 @@ body {
     font-style: normal;
 }
 
+span{
+    color: red;
+}
 
 /* navbar styles */
 
